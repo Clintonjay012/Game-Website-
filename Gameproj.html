@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap CSS from CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/robots-reborn" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/division-one" rel="stylesheet">           
+    <link href="gamingstyle.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+  <!-- Create a navigation bar -->
+  <nav role="navigation" class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand"><img src="reallo.png" alt="" class="logo"></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse navbar-right" id="navbarCollapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#" style="color: goldenrod;">Home</a></li>
+          <li><a href="#" style="color: goldenrod;">About</a></li>
+          <li><a href="#" style="color: goldenrod;">Clan</a></li>
+          <li><a href="#" style="color: goldenrod;">Tournaments</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Create a header -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Welcome to Ruby Gaming Site</h1>
+    </div>
+  </div>
+
+  <!-- Create icons with text -->
+  <div class="row">
+    <div class="icons">
+      <div class="container">
+        <div style="padding-left: 450px;">
+          <div class="row">
+            <div style="text-align: center;">
+              <div class="col-md-4">
+                <img src="below.png" class="bodyImage">
+                <h2 style="color: goldenrod;">This Site Is Developed For You To See The Best Type Of Games</h2>
+                <p style="color: goldenrod;">Check Below To Choose!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Thumbnails -->
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="epic.png" alt="Epic Games">
+            <div class="caption">
+              <h3 style="color: goldenrod;">EPIC GAMES</h3>
+              <p style="color: goldenrod;">Click Below To See This Genres Of Games</p>
+              <p><a href="#" class="btn" style="background-color: goldenrod;" role="button">Enter</a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="rockstar.png" alt="Rockstar Games">
+            <div class="caption">
+              <h3 style="color: goldenrod;">ROCKSTAR GAMES</h3>
+              <p style="color: goldenrod;">Click Below To See This Genres Of Games</p>
+              <p><a href="#" class="btn" style="background-color: goldenrod;" role="button">Enter</a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="gun.png" alt="Shooting Games">
+            <div class="caption">
+              <h3 style="color: goldenrod;">SHOOTING GAMES</h3>
+              <p style="color: goldenrod;">Click Below To See This Genres Of Games</p>
+              <p><a href="#" class="btn" style="background-color: goldenrod;" role="button">Enter</a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <!-- Create a modal -->
+  <div class="container-fluid">
+    <button type="button" class="btn btn-lg" style="background-color: goldenrod;" data-toggle="modal" data-target="#mymodal">Register</button>
+    
+    <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="mymodalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Thank You For Choosing Ruby</h4>
+          </div>
+          <div class="modal-body">
+            <label for="inquiry"><h2>Complete The Form Below</h2></label>
+            <form class="form-horizontal">
+              <!-- Form fields -->
+              <div class="form-group">
+                <label for="Email" class="col-sm-2 control-label">Email:</label>
+                <div class="col-sm-10">
+                  <input type="email" id="email" placeholder="Email" class="form-control">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="Password" class="col-sm-2 control-label">Password:</label>
+                <div class="col-sm-10">
+                  <input type="password" id="Password" placeholder="Password" class="form-control">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="Password" class="col-sm-2 control-label">Confirm:</label>
+                <div class="col-sm-10">
+                  <input type="password" id="Password2" placeholder="Confirm Password" class="form-control">
+                </div>
+              </div>
+              
+              <!-- Additional fields -->
+              <div class="form-group">
+                <label for="Address" class="col-sm-2 control-label">Address:</label>
+                <div class="col-sm-10">
+                  <input type="text" id="Address" placeholder="1234 Main St" class="form-control">
+                </div>
+              </div>
+              
+              <p>Agree To All <a href="#" rel="noopener noreferrer">Terms and Policy</a></p>
+              <p>If You Already Have An Account Click <a href="#" data-toggle="modal" data-target="#mymodal2">Sign In</a></p>
+            </form>
+          </div>
+          
+          <div class="modal-footer">
+            <button type="button" class="btn" style="background-color: goldenrod;" data-dismiss="modal">Close</button>
+            <button type="button" class="btn" style="background-color: goldenrod;">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <p>&copy; Developed By Clinton</p>
+    </div>
+  </div>
+  
+  <!-- jQuery and Bootstrap JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#mymodal').on('shown.bs.modal', function(){
+        window.alert("Welcome to Ruby Gaming Site");
+      });
+    });
+  </script>
+  </body>
+</html>
