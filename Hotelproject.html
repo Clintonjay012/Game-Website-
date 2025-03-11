@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link href="https://unpkg.com/@popperjs/core@2">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="hotelstyling.css" rel="stylesheet">
+  </head>
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/zapfchan-md-bt" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/trade-gothic-lt-std" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet">
+                
+
+                
+
+    <style>
+      
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+      /*.nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding: 80;
+        text-align: center;
+      }
+      */
+
+      .col-md-4{
+        border-color: #9c8321;
+      }
+      .nav-item{
+       font-family: 'Lemon/Milk light', sans-serif;
+                                                
+            color: #ffffd0;                                  
+         letter-spacing: 5.5px;
+         font-size: 3.5rem; 
+         text-indent: 12px;                                       
+      }
+
+      .overlay-txt{
+        position: absolute;
+        bottom:0;
+        left:19%;
+        color:#fffdd0;
+        text-align: center;
+        padding-bottom: 250px;
+        padding-left: 110px;
+        font-size: 65px;
+        font-family: 'Lemon/Milk', sans-serif;
+           letter-spacing: 8.5;                                                     
+       }
+
+       .nav-item{
+    color: #fffdd0;
+    font-size: 17px;   
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+ }
+ 
+ .nav-item:hover{
+    background-color: #131212;
+    cursor: pointer;
+ }
+
+ 
+ .btn{
+    color: #fffdd0;
+    background-color: #fffdd0;
+    font-size: 17px;   
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+ }
+ 
+ .btn:hover{
+  background-color: #121211;
+    cursor: pointer;
+ }
+
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top " style=" padding: 20px; background-color: #28221E; opacity: 0.2;">
+    <div class="container-fluid">
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+        <ul class="navbar-nav justify-content-centermb-2 mb-md-0">
+          <li class="nav-item" style="color: #fffdd0;">
+            <a class="nav-link active" aria-current="page" href="#" style="color: #fffdd0;">Home</a>
+          </li>
+
+
+          <li class="nav-item" style="color: #fffdd0;">
+            <a class="nav-link active" aria-current="page" href="#" style="color: #fffdd0;">About us</a>
+          </li>
+          <li class="nav-item" style="color: #fffdd0;">
+            <a class="nav-link active" aria-current="page" href="#" style="color: #fffdd0;">Contact</a>
+          </li>
+          <li class="nav-item" style="color: #fffdd0;">
+          <a class="nav-link active" aria-current="page" href="#" style="color: #fffdd0;">Bookings</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="bghotel2.jpg" class="d-block w-100" alt="..." style="filter: brightness(30%); height: 700px;">
+        <span class="overlay-txt" style="color: #fffdd0;"><b>Welcome to KLT</b>
+          <h2 style="font-size: 15px; font-family: 'Lemon/Milk light', sans-serif;color: #ffffd0;">RELAX IN OUR LUXURY HOTEL</h2>
+          <button class="btn" style=" color: #9c8321; border-color:#9c8321;">DISCOVER</button>
+
+        </span>
+          
+        
+      </div>
+
+      <div class="carousel-item">
+        <img src="bed.jpg" class="d-block w-100" alt="..." style="height: 700px;">
+        
+              
+        
+      </div>
+      <div class="carousel-item">
+        <img src="bgbed.jpg" class="d-block w-100" alt="..." style="height: 700px;">
+        
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+   <form class="container-fluid justify-content-start" style="background-color: #fffff0;">
+  <p style="padding-top: 60px; font-size: 20px;  font-family: 'Lemon/Milk light', sans-serif; color: #28221E; text-align: center;">CHECK AVALAIBILITY</p>
+
+  <a style=" padding-left: 30px; padding-top: 500px; font-family: 'Lemon/Milk light', sans-serif;">CHECK IN</a>
+  <div class='container' style="padding-right: 1250px;  font-family: 'Lemon/Milk light', sans-serif; padding-top: 20px;">
+    <input type='date' class="form-control" id='datepicker' style='width: 200px; border-color: #9c8321; background-color: #fffdd0;'> 
+</div>
+
+<p style="right: 950px; position:absolute; top: 807px; text-align: center; font-family: 'Lemon/Milk light', sans-serif;">CHECK OUT</p>
+<div class='container' style="padding-right: 700px; position: absolute; top: 845px;">
+  <input type='date' class="form-control" id='datepicker2' style="width: 200px;  border-color: #9c8321; right: 690px; position:absolute; top: 5px; text-align: center;  font-family: 'Lemon/Milk light', sans-serif; background-color: #fffdd0;"> 
+
+  <p style="right: 600px; position:absolute; bottom: 1%; text-align: center; font-family: 'Lemon/Milk light', sans-serif;">ADULT</p>
+<div class='container' style="padding-right: 1000px; position:absolute; top: 1px;">
+  <input type='number' placeholder="18 ABOVE" class="form-control" id=' number' style=" font-family: 'Lemon/Milk light', sans-serif; width: 200px; color: #28221E; border-color: #9c8321; right: 480px; position:absolute; top: 5px; background-color: #fffdd0;">
+</div>
+
+<p style="right: 365px; position:absolute; bottom: 1%; text-align: center; font-family: 'Lemon/Milk light', sans-serif;">CHILDREN</p>
+<div class='container' style="padding-right: 1200px; position:absolute; top: 1px;">
+  <input type='number' placeholder="17 BELOW" class="form-control" id='number2' style=" font-family: 'Lemon/Milk light', sans-serif; width: 200px; color: #28221E; border-color: #9c8321; right: 330px; position:absolute; top: 5px; background-color: #fffdd0;">
+</div>
+
+  <button class="btn" style="font-family: 'Lemon/Milk light', sans-serif;  border-color: #9c8321; color:#9c8321; width: 300px; right: -90px; position:absolute; top: 3px">C H E C K</button>
+</div>
+   </form>
+</main>
+ <!-- START THE FEATURETTES -->
+<div class="container-fluid" style="background-color: #fffdd0; color: #9c8321;">
+ <hr class="featurette-divider">
+
+ <div class="row featurette" >
+   <div class="col-md-6">
+    <br>
+    <br>
+    <br>
+
+     <h2 class="featurette-heading fw-normal lh-1" style="font-family:'Lemon/Milk light', sans-serif;"><b>SUPERIOR ROOM</b></h2>
+     <br>
+     <p style="font-family:'Lemon/Milk light', sans-serif; font-size: 10px;"></p>$200 / NIGHT</p>
+     <br>
+     <br>
+     <button class="btn" style="border-color: #9c8321; font-family:'Lemon/Milk light', sans-serif; color: #9c8321;">BOOK</button>
+   </div>
+   <div class="col-md-6">
+     <img src="bed.jpg" width="640" height="500">
+   </div>
+ </div>
+ <div class="row featurette">
+  <div class="col-md-6">
+    <img src="hotelmd2.jpg" width="640" height="500">
+  </div>
+   <div class="col-md-6 ">
+    <br>
+    <br>
+    <br>
+
+     <h2 class="featurette-heading fw-normal lh-1" style="font-family:'Lemon/Milk light', sans-serif;"><b>DELUXE ROOM</b></h2>
+     <br>
+     <p style="font-family:'Lemon/Milk light', sans-serif; font-size: 10px;"></p>$250 / NIGHT</p>
+     <br>
+     <br>
+     <button class="btn" style="border-color: #9c8321; font-family:'Lemon/Milk light', sans-serif; color: #9c8321;">BOOK</button>
+   </div>
+ </div>
+ <div class="row featurette">
+  <div class="col-md-6">
+    <br>
+    <br>
+    <br>
+
+     <h2 class="featurette-heading fw-normal lh-1" style="font-family:'Lemon/Milk light', sans-serif;"><b>PRESIDENTIAL ROOM</b></h2>
+     <br>
+     <p style="font-family:'Lemon/Milk light', sans-serif; font-size: 10px;"></p>$400 / NIGHT</p>
+     <br>
+     <br>
+     <button class="btn" style="border-color: #9c8321; font-family:'Lemon/Milk light', sans-serif; color: #9c8321;">BOOK</button>
+  </div>
+  <div class="col-md-6">
+    <img src="bghotel2.jpg" width="640" height="500">
+  </div>
+ </div>
+</div>
+
+
+<div class="container-fluid" style="background-color:#121211;">
+  <br>
+  <h4 style="color: #9c8321; font-family:'Lemon/Milk light';"><center>HOTEL FACILITIES</center></h4>
+  <br>
+  <div class="container-fluid">
+  <div class="row align-items-md-stretch" style="background-color: #121211; border-color:1px solid white;">
+    <div class="col-md-4" style=" color: #9c8321;">
+      <div class="h-100 p-5">
+        <h2 style="font-family:'Lemon/Milk light'; font-size: 22px;">RESTAURANT</h2>
+        <p class="lead">Despite the number of other options available, restaurant websites are an essential attribute of any modern business. It will give an opportunity to create a centralized location.</p>
+      </div>
+
+    </div>
+    <div class="col-md-4">
+      <div class="h-100 p-5 rounded-3" style="background-color: #121211; border-color:1px solid white;color: #9c8321;">
+        <h2 style="font-family:'Lemon/Milk light'; font-size: 22px;">SILK BAR</h2>
+        <p class="lead">Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+       
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="h-100 p-5 rounded-3" style="background-color: #121211; border-color:1px solid white;color: #9c8321; border-width: 2px; border-color: #9c8321;">        <h2 style="font-family:'Lemon/Milk light'; font-size: 22px;">WIFI</h2>
+        <p class="lead">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here</p>
+  
+      </div>
+    </div>
+  </div>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+      
+      
+    </script>
+      
+  </body>
+</html>
